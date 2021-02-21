@@ -18,7 +18,7 @@
     </body>
     </html>
     ```
-
 ***
 
 6. Basic level of English
+7. Higher education in the specialty: software engineering
