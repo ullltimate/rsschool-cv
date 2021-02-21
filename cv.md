@@ -2,9 +2,12 @@
 2. Phone number: *+380939042456*, Email: *ullltimate.zp@gmail.com*
 3. My goal: to become a Front-end developer, no work experience, but there is a desire to learn quickly and learn new things.
 4. Basic knowledge of HTML/CSS
-***
+5. Sample code:
 
-5. ``` <!DOCTYPE html>
+*** 
+
+ ``` 
+    <!DOCTYPE html>
     <html>
     <head>
 	    <meta charset="UTF-8">
@@ -15,6 +18,7 @@
     </body>
     </html>
     ```
+
 ***
 
 6. Basic level of English
