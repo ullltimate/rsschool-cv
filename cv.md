@@ -21,4 +21,4 @@
 ***
 
 5. Basic level of English
-6. Higher education in the specialty: software engineering
+6. Higher education in the specialty: software engineering.
