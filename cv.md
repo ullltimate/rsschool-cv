@@ -1,8 +1,22 @@
 # Svetlana Ponkratenko
-1. Phone number: *+380939042456*, Email: *ullltimate.zp@gmail.com*
-2. My goal: to become a Front-end developer, no work experience, but there is a desire to learn quickly and learn new things.
-3. Basic knowledge of HTML/CSS
-4. Sample code:
+## Contacts 
+ Phone number: *+380939042456*, Email: *ullltimate.zp@gmail.com*
+## My goal 
+To become a Front-end developer. I have a desire to learn new things and chage my life.
+## Education
+in 2018 completed the full course of Zaporizhzhya National Technical University
+and obtained qualification:
+Master Degree
+Program Subject Area "Computer sciences"
+Study Program artificial intelligence systems
+Professional qulification
+computer systems analyst, university and higher education teacher
+## Work experience
+Master of industrial training at Zaporizhzhya right-bank professional lyceum (2018-2021)
+## Skills
+Basic knowledge of HTML/CSS
+Basic level of English
+## Sample code:
 
 *** 
 
@@ -20,5 +34,3 @@
  ```
 ***
 
-5. Basic level of English
-6. Higher education in the specialty: software engineering.
