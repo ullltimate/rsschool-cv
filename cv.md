@@ -14,23 +14,17 @@ computer systems analyst, university and higher education teacher
 ## Work experience
 Master of industrial training at Zaporizhzhya right-bank professional lyceum (2018-2021)
 ## Skills
-Basic knowledge of HTML/CSS
-Basic level of English
+Basic knowledge of HTML/CSS,Git
+Elementary level of English
 ## Sample code:
 
 *** 
 
  ``` 
-    <!DOCTYPE html>
-    <html>
-    <head>
-	    <meta charset="UTF-8">
-	    <title>Svetlana</title>
-    </head>
-    <body>
-	    <h1>Заголовок 1</h1>
-    </body>
-    </html>
+helloWorld = function() {
+  var str = "Hello World!";
+  console.log( str );
+}
  ```
 ***
 
