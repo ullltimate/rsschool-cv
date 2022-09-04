@@ -1,61 +1,207 @@
-<!doctype html>
-<html lang="en"> 
-    <head>
-        <title>CV</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="conteiner">
-            <hr>
-        <div class="header"><h1>Svetlana Ponkratenko</h1></div>
-            <div class="picture-text"><img src="fotocv.jpg" height="200" width="170" alt="Myfoto">
-                <h2>Contacts</h2>
-                    <ul>
-                        <li>Phone number: +380939042456</li>
-                        <li >Email: ullltimate.zp@gmail.com</li>  
-                    </ul>
-                <h2>My goal</h2> 
-                    <p>To become a Front-end developer.<br> 
-                         I have a desire to learn new things and chage my life.</p><br>
-                         <h2>Work experience</h2>
-                    <p>Master of industrial training at Zaporizhzhya right-bank professional lyceum (2018-2021)</p>
-                <h2>Skills</h2>    
-                        <ul>
-                            <li>Basic knowledge of HTML/CSS</li>
-                            <li>Basic level of English</li> 
-                        </ul></div> 
-            <div class="content"> 
-                <h2>Education</h2>
-                    <p>in 2018 completed the full course of Zaporizhzhya National Technical University<br>
-                        and obtained qualification:<br>
-                        Master Degree<br>
-                        Program Subject Area "Computer sciences"<br>
-                        Study Program artificial intelligence systems<br>
-                        Professional qulification<br>
-                        computer systems analyst, university and higher education teacher</p>
-               
-                <h2>Sample code:</h2>
-                    <p>  &lt;!DOCTYPE html&gt;<br>
-                         &lt;html&gt;<br>
-                         &lt;head&gt;<br>
-                         &lt;meta charset="UTF-8"&gt;<br>
-                         &lt;title&gt; Svetlana &lt;/title&gt;<br>
-                         &lt;/head&gt;<br>
-                         &lt;body&gt;<br>
-                         &lt;h1&gt; Заголовок 1 &lt;/h1&gt;<br>
-                         &lt;/body&gt;<br>
-                         &lt;/html&gt;<br>
-                    </p>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="header_title_wrap">
+                    <h1 class="header_title">
+                        Svitlana Ponkratenko
+                    </h1>
+                    <h2 class="header_subtitle">
+                        Trainee Front-end Developer
+                    </h2>
+                </div>
+                <ul class="header_icon">
+                    <li class="header_icon_item">
+                        <a href="https://github.com/ullltimate" class="header_item_link">
+                            <img src="./img/github.png" alt="GitHub" class="header_item_img">
+                        </a>
+                    </li>
+                    <li class="header_icon_item">
+                        <a href="https://t.me/ullltimate" class="header_item_link">
+                            <img src="./img/telegram.png" alt="telegram" class="header_item_img">
+                        </a>
+                    </li>
+                    <li class="header_icon_item">
+                        <a href="https://www.linkedin.com/in/svitlana-ponkratenko-trainee-front-end-developer/" class="header_item_link">
+                            <img src="./img/linkedin.png" alt="linkedin" class="header_item_img">
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <hr>
-        <footer>
-                <a href="https://github.com/ullltimate"><img src="GitHub-Mark.png" width="50" 
-                    height="50" alt="githubaccount"></a>
-                <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" width="150" 
-                    height="50" alt="logorsschool"></a>
-        </footer>
-    </div>    
-    </body>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="cards_info">
+                <img src="./img/my-foto.jpg" alt="foto" class="card_foto">
+                <div class="card_info">
+                    <h1 class="card_info_title">
+                        Svitlana Ponkratenko
+                    </h1>
+                    <h2 class="card_info_subtitle">
+                        Trainee Front-end Developer
+                    </h2>
+                    <div class="card_info_line"></div>
+                    <div class="card_info_desc">
+                        <ul class="card_info_list">
+                            <li class="card_info_item">
+                                Age
+                            </li>
+                            <li class="card_info_item">
+                                Address
+                            </li>
+                            <li class="card_info_item">
+                                Email
+                            </li>
+                            <li class="card_info_item">
+                                Phone
+                            </li>
+                        </ul>
+                        <ul class="card_info_list">
+                            <li class="card_info_item_text">
+                                27
+                            </li>
+                            <li class="card_info_item_text">
+                                Minsk, Belarus
+                            </li>
+                            <li class="card_info_item_text">
+                                ullltimate.zp@gmail.com
+                            </li>
+                            <li class="card_info_item_text">
+                                +375444779345
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card_info_footer">
+                        <ul class="card_info_footer_icon">
+                            <li class="card_info_footer_icon_item">
+                                <a href="https://github.com/ullltimate" class="card_info_footer_item_link">
+                                    <img src="./img/github.png" alt="GitHub" class="card_info_footer_item_img">
+                                </a>
+                            </li>
+                            <li class="card_info_footer_icon_item">
+                                <a href="https://t.me/ullltimate" class="card_info_footer_item_link">
+                                    <img src="./img/telegram.png" alt="telegram" class="card_info_footer_item_img">
+                                </a>
+                            </li>
+                            <li class="card_info_footer_icon_item">
+                                <a href="https://www.linkedin.com/in/svitlana-ponkratenko-trainee-front-end-developer/" class="card_info_footer_item_link">
+                                    <img src="./img/linkedin.png" alt="linkedin" class="card_info_footer_item_img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="education">
+            <div class="wrapper">
+                <h2 class="education_title">
+                    education
+                </h2>
+                <div class="education_block">
+                    <div class="education_block_higher">
+                        <a href="https://zp.edu.ua/"><img src="./img/znty.png" alt="ZNTY" class="education_block_img"></a>
+                        <p class="education_text">
+                            in 2018 completed the full course of Zaporizhzhya National Technical University<br>
+                            and obtained qualification:<br>
+                            Master Degree<br>
+                            Program Subject Area "Computer sciences"<br>
+                            Study Program artificial intelligence systems<br>
+                            Professional qulification:<br>
+                            computer systems analyst, university and higher education teacher
+                        </p>
+                    </div>
+                    <div class="education_block_courses">
+                        <p class="education_courses_text">
+                            I am currently studying the JavaScript/Front-end course<br>
+                            from The Rolling Scopes community
+                        </p>
+                        <a href="https://rs.school/"><img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" class="education_courses_img"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="wrapper">
+                <h2 class="skills_title">
+                    skills
+                </h2>
+                <div class="skills_block">
+                    <div class="skills_block_text">
+                        <p class="skills_text">
+                            I am currently upgrading my qualifications<br>
+                            in order to find a job in my specialty<br>                     
+                        </p>
+                        <ul class="skills_list">
+                            <li class="skills_item">
+                                html/html5
+                            </li>
+                            <li class="skills_item">
+                                css/css3
+                            </li>
+                            <li class="skills_item">
+                                JavaScript
+                            </li>
+                            <li class="skills_item">
+                                git
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h2 class="sample_code_title">
+                    sample code
+                </h2>
+                <div class="sample_code_block">
+                    <ul class="sample_code_list">
+                        <li class="sample_code_item">
+                            <a href="https://rolling-scopes-school.github.io/ullltimate-JSFEPRESCHOOL2022Q2/travel/" class="sample_code_link">
+                                Website Travel Portal
+                            </a>
+                        </li>
+                        <li class="sample_code_item">
+                            <a href="https://ullltimate.github.io/example/stone%20site/" class="sample_code_link">
+                                Website Stone
+                            </a>
+                        </li>
+                        <li class="sample_code_item">
+                           <a href="https://ullltimate.github.io/example/brella%20site/" class="sample_code_link">
+                                Website Brella
+                           </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="work_experience">
+            <div class="wrapper">
+                <h2 class="work_experience_title">
+                    work experience
+                </h2>
+                <div class="work_block">
+                    <ul class="work_block_list">
+                        <li class="work_block_item">
+                            Master of industrial training at Zaporizhzhya right-bank professional lyceum (04.2018-08.2019)
+                        </li>
+                        <li class="work_block_item">
+                            Administrator of the technical centerAdministrator of the technical center at Official dealer of Renault, company Autho-R (10.2019-02.2020)
+                        </li>
+                        <li class="work_block_item">
+                            Master of industrial training at Zaporizhzhya right-bank professional lyceum (02.2020-08.2021)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
