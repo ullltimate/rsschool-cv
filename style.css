@@ -368,293 +368,205 @@ textarea {
 /*start style*/
 
 .wrapper{
-    width: 800px;
+    max-width: 1040px;
     margin: 0 auto;
 }
 .header{
+    width: 100%;
     height: 400px;
     background: #52a89e;
 }
-.header_wrapper{
-    display: flex;
-    flex-wrap: wrap;
+.header-wrapper{
     align-items: center;
     justify-content: space-between;
     padding-top: 50px;
 }
-.header_icon{
-    display: flex;
-    flex-wrap: wrap;
+.header-icons{
     align-items: center;
     justify-content: space-between;
 }
-.header_title{
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    color: white;
-}
-.header_subtitle{
-    padding-top: 5px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: white;
-}
-.header_item_img{
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-}
-.cards_info{
+.wrap{
     display: flex;
     flex-wrap: wrap;
+}
+.header-title{
+    font-size: 38px;
+    color: white;
+}
+.header-subtitle{
+    padding-top: 5px;
+    font-size: 22px;
+    color: white;
+}
+.title{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+}
+.item-img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.item-img:hover{
+    transform: scale(1.3);
+}
+.main{
+    background: rgb(232 230 230);
+    min-height: 1700px;
+}
+.cards-info{
     position: absolute;
     top: 208px;
     background: white;
-    width: 800px;
     box-shadow: 1px 1px 4px rgb(232 230 230);
 }
-.card_foto{
-    width: 288px;
-    height: 384x;
+.foto{
+    max-width: 344px;
 }
-.card_info{
-    width: 512px;
+.card-info{
+    margin-left: auto;
+    margin-right: auto;
 }
-.card_info_title{
-    padding-left: 25px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
+.card-info__title{
+    font-size: 38px;
     color: #52a89e;
     padding-top: 40px;
 }
-.card_info_subtitle{
-    padding-left: 25px;
+.card-info__subtitle{
     padding-top: 5px;
     padding-bottom: 15px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
     color: #52a89e;
 }
-.card_info_line{
-    margin-left: 25px;
-    width: 462px;
+.card-info__line{
     height: 1px;
     margin-bottom: 50px;
     background: #c0c0c0;
 }
-.card_info_desc{
-    padding-left: 25px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.card_info_list{
+.card-info-list{
     padding-right: 25px;
 }
-.card_info_item{
+.card-info-list__item{
     padding-bottom: 15px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
+    font-size: 22px;
+    color: #000;
 }
-.card_info_item_text{
-    padding-bottom: 15px;
+.text{
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 22px;
+    color: black;
 }
-.card_info_footer{
-    margin-top: 35px;
+.card-info-footer{
+    margin-top: 70px;
     background: #52a89e;
-    height: 60px;
+    height: 70px;
 }
-.card_info_footer_icon{
-    display: flex;
-    flex-wrap: wrap;
+.footer-icons{
     justify-content: center;
     padding-top: 15px;
 }
-.card_info_footer_item_img{
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
+.about-block{
+    width: 65%;
 }
-.education{
-    padding-top: 232px;
-    background: rgb(232 230 230);
-}
-.education_title{
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
+.about-title{
     font-size: 28px;
     color: #52a89e;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 40px;
+    padding-top: 40px;
 }
-.education_block{
-    background: white;
-    box-shadow: 1px 1px 4px rgb(232 230 230);
-}
-.education_block_higher{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.education_block_img{
-    width: 100px;
-    height: 100px;
-    padding-left: 40px;
-}
-.education_text{
-    padding: 40px;
-    padding-bottom: 0px;
-    text-align: right;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-}
-.education_block_courses{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.education_courses_text{
-    padding: 40px;
-    padding-right: 160px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-}
-.education_courses_img{
-    width: 150px; 
-    height: 50px;
+.about-text{
+    padding: 0px 40px 0px 30px;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.25;
 }
 .skills{
-    padding-top: 40px;
-    background: rgb(232 230 230);
+    width: 35%;
 }
-.skills_title{
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    color: #52a89e;
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 40px;
-}
-.skills_block{
-    padding: 40px;
-    background: #52a89e;
-    box-shadow: 1px 1px 4px rgb(232 230 230);
-}
-.skills_block_text{
-    display: flex;
-    flex-wrap: wrap;
+.skills-block-text{
     align-items: center;
 }
-.skills_text{
-    padding-right: 160px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-}
-.skills_list{
+.skills-list{
     list-style: none;
+    padding-left: 40px;
 }
-.skills_item:before{
+.skills-item:before{
     content: '✔';
 }
-.skills_item{
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: white;
+.skills-item{
     text-transform: uppercase;
     padding-bottom: 15px;
 }
-.skills_item:last-child{
+.skills-item:last-child{
     padding-bottom: 0px;
 }
-.sample_code_title{
-    padding: 40px 0px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    color: #52a89e;
-    text-align: center;
-    text-transform: uppercase;
+.project-wrap{
+    align-items: center;
+    justify-content: space-around;
 }
-.sample_code_block{
-    padding: 40px;
-    background: white;
-    box-shadow: 1px 1px 4px rgb(232 230 230);
+.project{
+    margin-bottom: 40px;
 }
-.sample_code_list{
-    list-style: none;
+.project-img{
+    width: 450px;
+    height: 250px;
+    transition: 0.5s;
+    opacity: 0.6;
 }
-.sample_code_item:before{
-    content: '✔';
+.project-img:hover{
+    transform: scale(1.1);
+    opacity: 1;
 }
-.sample_code_item{
-    padding-bottom: 15px;
+.project-title-wrap{
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+    position: relative;
 }
-.sample_code_item:last-child{
-    padding-bottom: 0px;
-}
-.sample_code_link{
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    text-decoration: none;
-    color: #000;
-}
-.work_experience{
-    padding-top: 40px;
-    background: rgb(232 230 230);
-    padding-bottom: 40px;
-}
-.work_experience_title{
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    color: #52a89e;
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 40px;
-}
-.work_block{
-    padding: 40px;
+.project-title-wrap:after{
+    content:'';
+    height: 4px;
     background: #52a89e;
-    box-shadow: 1px 1px 4px rgb(232 230 230);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    right: 50%;
+    opacity: .6;
+    display: block;
+    transition:.5s;
 }
-.work_block_item{
+.project-title-wrap:hover:after{
+    left: 0;
+    right: 0;
+}
+.project-img-title{
     font-family: 'Arial';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 22px;
 }
-.work_block_item:last-child{
-    padding-bottom: 0px;
+[data-tooltip] {
+    position: relative;
+}
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 0; top: 0;
+    background: #52a89e;
+    color: #fff;
+    padding: 0.3em;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 10;
+    transition: 0.1s;
+} 
+[data-tooltip]:hover::after {
+    opacity: 1; 
+    top: -9.5em;
 }
