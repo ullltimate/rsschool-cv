@@ -414,7 +414,7 @@ textarea {
 }
 .main{
     background: rgb(232 230 230);
-    min-height: 1700px;
+    min-height: 1850px;
 }
 .cards-info{
     position: absolute;
@@ -511,7 +511,7 @@ textarea {
     justify-content: space-around;
 }
 .project{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .project-img{
     width: 450px;
@@ -551,22 +551,106 @@ textarea {
     font-weight: 700;
     font-size: 22px;
 }
-[data-tooltip] {
+[data-tooltip],
+[data-tooltip2]{
     position: relative;
 }
-[data-tooltip]::after {
-    content: attr(data-tooltip);
+[data-tooltip]::after,
+[data-tooltip2]::after{
     position: absolute;
-    left: 0; top: 0;
     background: #52a89e;
     color: #fff;
     padding: 0.3em;
     pointer-events: none;
     opacity: 0;
-    z-index: 10;
-    transition: 0.1s;
+    transition: 0.5s;
+}
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+    left: 0; top: -9.5em;
 } 
-[data-tooltip]:hover::after {
+[data-tooltip2]::after {
+    content: attr(data-tooltip2);
+    left:-5.2em; bottom: 0;
+}
+[data-tooltip]:hover::after,
+[data-tooltip2]:hover::after{
     opacity: 1; 
-    top: -9.5em;
+}
+
+@media screen and (max-width: 790px) {
+    .cards-info{
+        top: 168px;
+    }
+    .foto{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skills{
+        width: 100%;
+    }
+    .about-block{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .header-title,
+    .card-info__title{
+        font-size: 28px;
+    }
+    .card-info__title{
+        padding-top: 20px;
+    }
+    .header-subtitle,
+    .card-info__subtitle{
+        font-size: 16px;
+    }
+    .foto{
+        max-width: 244px;
+    }
+    .item-img{
+        width: 30px;
+        height: 30px;
+    }
+    .header-wrapper{
+        padding-top: 20px;
+    }
+    .cards-info{
+        top: 90px
+    }
+    .text,
+    .card-info-list__item{
+        font-size: 16px;
+    }
+    .about-title{
+        font-size: 24px;
+    }
+    .card-info__line{
+        margin-bottom: 25px;
+    }
+    .card-info-footer{
+        margin-top: 35px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .project-img{
+        width: 350px;
+        height: 200px;
+    }
+    [data-tooltip]::after {
+        content: attr(data-tooltip);
+        left: 0; top: -8em;
+    } 
+}
+
+@media screen and (max-width: 410px) {
+    .header-title{
+        font-size: 22px;
+    }
+    .header-subtitle{
+        font-size: 14px;
+    }
 }
