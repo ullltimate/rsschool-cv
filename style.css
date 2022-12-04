@@ -582,7 +582,12 @@ textarea {
     .cards-info{
         top: 168px;
     }
+    .header-wrapper{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     .foto{
+        margin-top: 5px;
         margin-left: auto;
         margin-right: auto;
     }
