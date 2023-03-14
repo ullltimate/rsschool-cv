@@ -414,7 +414,7 @@ textarea {
 }
 .main{
     background: rgb(232 230 230);
-    min-height: 1850px;
+    min-height: 2100px;
 }
 .cards-info{
     position: absolute;
@@ -479,6 +479,14 @@ textarea {
     text-transform: uppercase;
     padding-bottom: 40px;
     padding-top: 40px;
+}
+.pad{
+    padding-bottom: 10px;
+}
+.about-subtitle{
+    color: #52a89e;
+    text-align: center;
+    padding-bottom: 40px;
 }
 .about-text{
     padding: 0px 40px 0px 30px;
