@@ -494,6 +494,10 @@ textarea {
     text-indent: 40px;
     line-height: 1.25;
 }
+.edu{
+    text-indent: 0px;
+    padding-bottom: 10px;
+}
 .skills{
     width: 35%;
 }
