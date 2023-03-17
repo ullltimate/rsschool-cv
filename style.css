@@ -419,7 +419,7 @@ a{
 }
 .main{
     background: rgb(232 230 230);
-    min-height: 2500px;
+    min-height: 2400px;
 }
 .cards-info{
     position: absolute;
@@ -518,6 +518,7 @@ a{
 .pr-title-wrap{
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 .pr-item{
     display: flex;
@@ -529,6 +530,11 @@ a{
 }
 .pr-item-img:hover{
     transform: scale(1.1);
+}
+.item-descr-text,
+.item-technol-text{
+    font-size: 18px;
+    text-align: justify;
 }
 .skills{
     width: 35%;
@@ -641,6 +647,10 @@ a{
     .about-block{
         width: 100%;
     }
+    .pr-item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -693,6 +703,10 @@ a{
         content: attr(data-tooltip);
         left: 0; top: -8em;
     } 
+    .item-descr-text,
+    .item-technol-text{
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 410px) {
