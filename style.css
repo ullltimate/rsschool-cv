@@ -419,7 +419,7 @@ a{
 }
 .main{
     background: rgb(232 230 230);
-    min-height: 2100px;
+    min-height: 2500px;
 }
 .cards-info{
     position: absolute;
@@ -502,6 +502,33 @@ a{
 .edu{
     text-indent: 0px;
     padding-bottom: 10px;
+}
+.edu a,
+.item-descr-text a{
+    color: #52a89e;
+}
+.pr-item-img{
+    max-width: 350px;
+    margin-right: 20px;
+    transition: 1s;
+}
+.projects-list{
+    margin: 0 40px;
+}
+.pr-title-wrap{
+    justify-content: space-between;
+    align-items: center;
+}
+.pr-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.item-descr-text{
+    margin-bottom: 10px;
+}
+.pr-item-img:hover{
+    transform: scale(1.1);
 }
 .skills{
     width: 35%;
