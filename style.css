@@ -695,6 +695,9 @@ a{
 }
 
 @media screen and (max-width: 450px) {
+    .projects-list{
+        margin: 0 10px;
+    }
     .project-img{
         width: 350px;
         height: 200px;
